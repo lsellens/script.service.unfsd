@@ -28,7 +28,6 @@ def writeexports():
     for i in range(0, int(shares)):
         exec('folder{0} = __addon__.getSetting("SHARE_FOLDER{0}")'.format(i))
         exec('permission{0} = __addon__.getSetting("PERMISSION{0}")'.format(i))
-        xbmc.log('unfs: folder0 ' + folder0, level=xbmc.LOGDEBUG)
         file.write('{0} ({1},insecure,anonuid=0,anongid=0,all_squash)\n'.format(eval('folder{0}'.format(i)), eval('permission{0}'.format(i))))
     file.close()
     system("systemctl reload script.service.unfsd.service")
