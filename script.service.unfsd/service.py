@@ -16,9 +16,9 @@ class MyMonitor(xbmc.Monitor):
 __addon__ = xbmcaddon.Addon(id='script.service.unfsd')
 __addonpath__ = xbmc.translatePath(__addon__.getAddonInfo('path'))
 __addonhome__ = xbmc.translatePath(__addon__.getAddonInfo('profile'))
-__scriptname__ = "unfs3"
+__scriptname__ = "UNFS3"
 __author__ = "lsellens"
-__url__ = "http://lsellens.openelec.tv"
+__url__ = "https://github.com/lsellens/xbmc.addons"
 
 
 
