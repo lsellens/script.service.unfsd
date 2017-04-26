@@ -13,5 +13,11 @@
     <description>UNFS3 is a user-space implementation of the NFSv3 server
 specification.</description>
     <platform>linux</platform>
+    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+    <source>https://github.com/lsellens/script.service.unfsd</source>
+    <news>0.0.1 - initial version - UNFS3-0.9.22</news>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
   </extension>
 </addon>
